@@ -1,3 +1,6 @@
+
+---
+
 ```markdown
 # 🚆 RailSched – Railway Rake Forecasting & Scheduling App
 
@@ -27,8 +30,8 @@ Watch the full app demo here:
   - Visual insights into upcoming rake availability and usage.
 
 - ⚙️ **Settings Page**
-  - Dark mode toggle
-  - Language switch (localization-ready)
+  - Dark mode toggle  
+  - Language switch (localization-ready)  
   - Logout button to clear saved login
 
 - ⏰ **Alarm Notifications**
@@ -114,16 +117,16 @@ RailSched/
 - Uses `SharedPreferences` to store:
   - Last logged-in email and password
   - Dark mode preference
-  - Selected language
+  - Selected language  
 - Logout clears stored credentials and navigates back to login.
 
 ---
 
 ## 📌 Future Scope
 
-- Firebase backend for real-time rake tracking
-- Admin dashboard for rake entry
-- API integration for live rail data
+- Firebase backend for real-time rake tracking  
+- Admin dashboard for rake entry  
+- API integration for live rail data  
 - Analytics and charts for usage stats
 
 ---
@@ -132,6 +135,6 @@ RailSched/
 
 Made with 💙 by [Mohammad Kavish]  
 RailSched – Simplifying railway logistics with code.
+```
 
 ---
-
