@@ -130,6 +130,6 @@ RailSched/
 
 ## 🙌 Credits
 
-Made with 💙 by [Mohammad Kavish]  
+Made with 💙 by **Mohammad Kavish** 
 RailSched – Simplifying railway logistics with code.
 ```
