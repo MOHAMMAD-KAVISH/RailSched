@@ -1,7 +1,4 @@
 
----
-
-```markdown
 # 🚆 RailSched – Railway Rake Forecasting & Scheduling App
 
 RailSched is a smart Android app designed for **forecasting and scheduling railway rakes**. It helps railway planners and operators improve rake utilization, reduce delays, and manage resources efficiently with modern tools and a clean UI built using **Material Design 3**.
@@ -136,5 +133,3 @@ RailSched/
 Made with 💙 by [Mohammad Kavish]  
 RailSched – Simplifying railway logistics with code.
 ```
-
----
