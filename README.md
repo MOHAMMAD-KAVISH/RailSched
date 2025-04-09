@@ -1,5 +1,3 @@
----
-
 ```markdown
 # 🚆 RailSched – Railway Rake Forecasting & Scheduling App
 
