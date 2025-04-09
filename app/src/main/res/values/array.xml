@@ -1,0 +1,7 @@
+<resources>
+    <string-array name="languages_array">
+        <item>English</item>
+        <item>@string/hindi</item>
+        <item>@string/spanish</item>
+    </string-array>
+</resources>

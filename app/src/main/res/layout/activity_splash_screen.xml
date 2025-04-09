@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_gradient_bg"
+    android:padding="24dp">
+
+    <!-- Centered content -->
+    <LinearLayout
+        android:id="@+id/splash_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Logo inside a stylish background circle -->
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/splash_logo"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            app:srcCompat="@drawable/img"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerInside"
+            android:background="@drawable/circle_background"
+            android:padding="16dp"
+            android:elevation="8dp" />
+
+        <!-- App Title -->
+        <TextView
+            android:id="@+id/appTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RailSched"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="20dp"
+            android:letterSpacing="0.05"
+            android:fontFamily="sans-serif-medium" />
+
+        <!-- Tagline or quote -->
+        <TextView
+            android:id="@+id/tagline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="On Time. Every Time. Like Rails Should.\"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:layout_marginTop="6dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:maxLines="2" />
+    </LinearLayout>
+
+    <!-- Progress Spinner at bottom -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.Material.ProgressBar.Small"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"
+        android:indeterminate="true" />
+</RelativeLayout>

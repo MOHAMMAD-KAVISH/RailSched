@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RailSched</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="hindi">Hindi</string>
+    <string name="spanish">Spanish</string>
+    <string name="change_password_title">Change Password</string>
+    <string name="change">Change</string>
+    <string name="cancel">Cancel</string>
+    <string name="password_too_short">Password must be at least 6 characters</string>
+    <string name="passwords_mismatch">Passwords don\'t match</string>
+    <string name="incorrect_password">Current password is incorrect</string>
+    <string name="password_change_success">Password changed successfully</string>
+</resources>

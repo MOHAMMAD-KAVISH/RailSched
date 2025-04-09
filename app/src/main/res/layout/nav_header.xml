@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="?attr/colorPrimaryContainer"
+    android:gravity="bottom">
+
+    <ImageView
+        android:id="@+id/navHeaderImage"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@drawable/img"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:background="@drawable/circle_background"
+        android:padding="4dp"
+        android:elevation="4dp" />
+
+    <TextView
+        android:id="@+id/navHeaderTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RailSched"
+        android:textColor="@color/md_theme_error"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="12dp" />
+</LinearLayout>
